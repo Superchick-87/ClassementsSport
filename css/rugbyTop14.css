@@ -1,0 +1,4 @@
+table tbody tr:nth-child(-n+6) td:first-child{background-color:#7BDA5F; color:#fff;}
+table tbody tr:nth-child(-n+2) td:first-child{background-color:#339900; color:#fff;}
+table tbody tr:nth-last-child(-n+1) td:first-child{background-color:#ef2f2a; color:#fff;}
+table tbody tr:nth-last-child(2) td:first-child{background-color:#FEB03D; color:#fff;}

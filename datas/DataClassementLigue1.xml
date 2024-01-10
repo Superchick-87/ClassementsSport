@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<datas>
+<competition numSeason="2023 - 2024" numMatchday="2e"></competition>
+  <groupList>
+    <group>
+      <teamList>
+        <team refTeam="500247" numPosition="1" txtTeam="Paris-SG" numPoints="18" numPlayed="8" numWin="6" numDraw="0" numLost="2" numFor="2" numAgainst="4" numDif="+9"></team> 
+        <team refTeam="500247" numPosition="2" txtTeam="Paris-SG" numPoints="18" numPlayed="8" numWin="6" numDraw="0" numLost="2" numFor="2" numAgainst="4" numDif="+9"></team> 
+        <team refTeam="500247" numPosition="3" txtTeam="Paris-SG" numPoints="18" numPlayed="8" numWin="6" numDraw="0" numLost="2" numFor="2" numAgainst="4" numDif="+9"></team>
+        <team refTeam="500247" numPosition="4" txtTeam="Paris-SG" numPoints="18" numPlayed="8" numWin="6" numDraw="0" numLost="2" numFor="2" numAgainst="4" numDif="+9"></team>
+        <team refTeam="500247" numPosition="20" txtTeam="Paris-SG" numPoints="18" numPlayed="8" numWin="6" numDraw="0" numLost="2" numFor="2" numAgainst="4" numDif="+9"></team>  
+      </teamList>
+    </group>
+  </groupList>
+  <groupListHome>
+    <group>
+      <teamList>
+        <team refTeam="500247" numPosition="5" txtTeam="Paris-SG" numPoints="18" numPlayed="8" numWin="6" numDraw="0" numLost="2" numFor="2" numAgainst="4" numDif="+9"></team> 
+      </teamList>
+    </group>
+  </groupListHome>
+  <groupListAway>
+    <group>
+      <teamList>
+        <team refTeam="500247" numPosition="10" txtTeam="Paris-SG" numPoints="18" numPlayed="8" numWin="6" numDraw="0" numLost="2" numFor="2" numAgainst="4" numDif="+9"></team> 
+      </teamList>
+    </group>
+  </groupListAway>
+</datas>

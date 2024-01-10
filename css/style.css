@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+/*////////////////////// GENERIQUE //////////////////////*/
+
+body{
+	text-align: center;
+  	background-color: white;
+  	width: 80%;
+  	margin:0 auto;
+  	padding:0;
+  	outline:0;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4em;
+	font-weight: 100;
+	margin: 0 auto;
+}
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin: 0 auto;
+}
+select{
+    font-size: 15px;
+    width:150px;
+    height: 25px;
+    text-align: center !important;
+    border: 1px solid #000;
+    color: #fff;
+    margin: 4px 15px 10px 15px;
+    background-color: #000;
+}
+table{margin: 0 auto;width: 100%;}
+table tr:nth-child(odd){background-color:#F2F0F0;}
+table tbody tr td:first-child{width: 24px;}
+
+table{cellspacing:1;}
+/*th, td {border-bottom: 1px solid #b7b7b7;}*/
+
+
+thead tr td{
+	font-family: 'Roboto', sans-serif;
+	 font-size: 14px;
+	 margin: 0 auto;
+	 text-align: center;
+	 background-color: black;
+	 color: white;
+	 padding: 3px 0 3px 0;
+}
+table tr:hover {background-color:#E7E4E4;}
+.colonne{
+	width: 30px;
+}
+.TitreTableau{
+	 font-size:1.2em;
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: 300;
+	 border-radius: 8px 8px 0 0;
+	 margin: 0 auto;
+	 text-align: center;
+	 color: white;
+}
+.Tableau{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(0,0,0,1);
+	margin: 0 auto;	
+	text-align: center;
+}
+.TableauEquipe{
+	text-align: left;
+	padding-top: 4px; 
+}
+.gras{
+	font-weight: 500;
+}
+.DrapeauxPetits{
+	width: 25px;
+	 height: 25px;
+	 vertical-align: middle;
+	 margin-right: 6px;
+	 /*margin-left: 5px;*/
+	 padding-bottom: 3px;
+}
+hr{
+	margin-bottom: 8px;
+	border: none;
+	border-top: 1px dotted black;
+	width: 50%;
+}
+.filetBas{
+	width: 100%;
+}
+footer{
+    width:100%;
+    height: 18px;
+    background-image:url(../css/images/signature.svg);
+    background-repeat:no-repeat;
+    background-position:center;
+    margin-top: 10px;
+ }
+ .logo{
+ 	width: 90px;
+ }
+/*button{
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    background-color: #00876a;
+    color: #FFF;
+    margin: 10px 5px 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .2s;
+}
+button:hover {
+    background-color: #037059;
+    border: 2px solid #fd8071;
+	color: #fff;
+}*/
+@media only screen and (max-device-width:376px){
+	h1{
+	font-size: 1.4em;
+	}
+	.DrapeauxPetits{
+	 margin-right: 2px;
+	 margin-left: 2px;
+	}
+	.colonne{
+	width: auto;
+	}
+	body{
+ 	width: 100%;
+	}
+}
+
