@@ -57,7 +57,7 @@ $xml = simplexml_load_file($url);
 					echo ' 
 									<tr id="rang' . $n++ . '" class="Tableau TableauRang">
 										<td>' . $DataClassements['numPosition'] . '</td>
-										<td class="TableauEquipe gras" colspan="2"><img class="DrapeauxPetits" src="https://static.idalgo.info/Sport/Football/Team/Logo/40x40/logo_' . $DataClassements['refTeam'] . '.png" alt="' . $DataClassements['txtTeam'] . '">' . $DataClassements['txtTeam'] . '</td>
+										<td class="TableauEquipe gras" colspan="2"><img class="DrapeauxPetits" src="https://sport.sudouest.com/images_sora_sports_web/fanions/100/' . $DataClassements['refTeam'] . '.jpg" alt="' . $DataClassements['txtTeam'] . '">' . $DataClassements['txtTeam'] . '</td>
 										<td class="gras">' . $DataClassements['numPoints'] . '</td>
 										<td>' . $DataClassements['numPlayed'] . '</td>
 										<td>' . $DataClassements['numWin'] . '</td>
@@ -102,8 +102,7 @@ $xml = simplexml_load_file($url);
 					echo ' 
 									<tr id="rang' . $n++ . '" class="Tableau TableauRang">
 										<td>' . $DataClassements['numPosition'] . '</td>
-										<td class="TableauEquipe gras" colspan="2"><img class="DrapeauxPetits" src="https://static.idalgo.info/Sport/Football/Team/Logo/40x40/logo_' . $DataClassements['refTeam'] . '.png" alt="' . $DataClassements['txtTeam'] . '">' . $DataClassements['txtTeam'] . '</td>
-										<td class="gras">' . $DataClassements['numPoints'] . '</td>
+										<td class="TableauEquipe gras" colspan="2"><img class="DrapeauxPetits" src="https://sport.sudouest.com/images_sora_sports_web/fanions/100/' . $DataClassements['refTeam'] . '.jpg" alt="' . $DataClassements['txtTeam'] . '">' . $DataClassements['txtTeam'] . '</td>										<td class="gras">' . $DataClassements['numPoints'] . '</td>
 										<td>' . $DataClassements['numPlayed'] . '</td>
 										<td>' . $DataClassements['numWin'] . '</td>
 										<td>' . $DataClassements['numDraw'] . '</td>
@@ -147,7 +146,7 @@ $xml = simplexml_load_file($url);
 					echo ' 
 									<tr id="rang' . $n++ . '" class="Tableau TableauRang">
 										<td>' . $DataClassements['numPosition'] . '</td>
-										<td class="TableauEquipe gras" colspan="2"><img class="DrapeauxPetits" src="https://static.idalgo.info/Sport/Football/Team/Logo/40x40/logo_' . $DataClassements['refTeam'] . '.png" alt="' . $DataClassements['txtTeam'] . '">' . $DataClassements['txtTeam'] . '</td>
+										<td class="TableauEquipe gras" colspan="2"><img class="DrapeauxPetits" src="https://sport.sudouest.com/images_sora_sports_web/fanions/100/' . $DataClassements['refTeam'] . '.jpg" alt="' . $DataClassements['txtTeam'] . '">' . $DataClassements['txtTeam'] . '</td>
 										<td class="gras">' . $DataClassements['numPoints'] . '</td>
 										<td>' . $DataClassements['numPlayed'] . '</td>
 										<td>' . $DataClassements['numWin'] . '</td>
